@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Army Attacks</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+.hero-section {
+    background-image: url('BackgroundHeroo.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 1.5rem;
+}
+
+#pulwama img, #surgical-strike img, #uri-attack img, #galwan-clash img {
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: transform 0.3s;
+}
+
+#pulwama img:hover, #surgical-strike img:hover, #uri-attack img:hover, #galwan-clash img:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #222;
+}
+
+/* Add animation for section headers */
+section h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+.navbar ul {
+    color: white;
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.navbar ul li {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-style: italic;
+   cursor: pointer;
+}
+
+   li:hover{ 
+    color: rgb(240, 240, 253);
+}
+
+
+</style>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Indian Army</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <!-- <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li> -->
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="#pulwama">Pulwama Attack</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#surgical-strike">Surgical Strike</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#uri-attack">Uri Attack</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#galwan-clash">Galwan Valley Clash</a>
+                    </li> -->
+                    <li> <a href="indianArmy.html"> home </a></li>
+                    <li><a  href="indianArmyAbout.html">About</a> </li>
+                    <li><a href="timeline.html"> History</a></li>
+                    <li><a href="more.html"> Attack-Strikes</a></li>
+                    <li><a href="awards.html"> Awards-Heroes</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section text-center text-white">
+        <div class="container">
+            <h1 class="display-4">Indian Army's Bravery</h1>
+            <p class="lead">Remembering the attacks and the courage of our soldiers</p>
+        </div>
+    </section>
+
+    <!-- Pulwama Attack Section -->
+    <section id="pulwama" class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="pulwamaAttack.jpg" alt="Pulwama Attack" class="img-fluid">
+                </div>
+                <div class="col-md-6">
+                    <h2>Pulwama Attack</h2>
+                    <p>The Pulwama attack was a heinous act of terrorism that occurred on 14 February 2019. A suicide bomber attacked a convoy of CRPF personnel, resulting in the loss of 40 brave soldiers. This attack was one of the deadliest on Indian forces in decades.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Surgical Strike Section -->
+    <section id="surgical-strike" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>Surgical Strike</h2>
+                    <p>In response to the Uri attack, the Indian Army conducted surgical strikes on 29 September 2016. The strikes targeted militant launch pads across the Line of Control in Pakistan-administered Kashmir, showcasing the bravery and precision of the Indian Armed Forces.</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="surgicalStrike.jpg" alt="Surgical Strike" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Uri Attack Section -->
+    <section id="uri-attack" class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="uriAttack.webp" alt="Uri Attack" class="img-fluid">
+                </div>
+                <div class="col-md-6">
+                    <h2>Uri Attack</h2>
+                    <p>The Uri attack took place on 18 September 2016, when four heavily armed militants attacked an Indian Army brigade headquarters near the town of Uri in the state of Jammu and Kashmir. 19 Indian soldiers were martyred in this attack, making it one of the deadliest on Indian forces in recent years.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galwan Valley Clash Section -->
+    <section id="galwan-clash" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>Galwan Valley Clash</h2>
+                    <p>On 15 June 2020, a violent face-off occurred between Indian and Chinese troops in the Galwan Valley, resulting in the deaths of 20 Indian soldiers. The clash marked a significant escalation in the ongoing border tensions between India and China.</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="galwanValley.jpg" alt="Galwan Valley Clash" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Indian Army Tribute. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

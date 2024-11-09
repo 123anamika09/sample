@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }body{
+        flex-direction: column;
+        background-image: url(aboutArmy.jpg);
+    }
+    .header{
+        display: flex;
+        text-align: center;
+        position: relative;
+        justify-content: center;
+        height: 100px;
+        width: 100%;
+        background-color: cadetblue;
+        padding: 40px;
+        font-size: 24px;
+        font-style: italic;
+        font-weight: bolder;
+        border-top-right-radius: px;
+        
+    }    header:hover{
+        background-color: brown;
+        color: chartreuse;
+        text-transform:uppercase;
+        text-shadow: rgb(20, 14, 212);
+        
+    }
+    .container{
+       
+        background-color: rgb(143, 138, 94);
+        /* display: flex;
+        justify-content: space-between; */
+        border: 2px solid black;
+ }.about-content h2{
+        text-align: center;
+        justify-content: center;
+        text-decoration: none;
+        font-family: cursive;
+        font-weight: bolder;
+        background-color: rgb(221, 102, 11);
+        border: 2px solid black;
+        border-radius: 40px;
+      
+    }h2:hover{
+        color: blue;
+        background-color: crimson;
+    }.about-content1 p{
+       margin-top:20px;
+       
+        /* text-rendering: auto; */
+        text-transform: none;
+        
+    }.about-section{
+       
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    opacity: 0; /* Initially hidden */
+    animation: fadeIn 2s ease-out forwards; /* Fade-in animation */
+    }.about-content p{
+        margin-top: 10px;
+        font-weight: bold;
+       margin-bottom: 10px;
+       line-height:1;
+      
+    }li:hover{
+        color: rgb(51, 26, 192);
+        text-transform: uppercase;
+
+    } .about-content{
+
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: transform 0.3s ease-in-out; 
+}
+
+.header1 {
+    position: relative;
+    background-color: rgb(225, 156, 19);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    overflow-x:visible;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    /* overflow-y: visible; */
+
+}
+
+
+
+.header1-content {
+    display: flex; 
+    justify-content :space-between ;
+    
+    align-items: center;
+    padding: 0 20px;
+    position: relative;
+     z-index: 2; 
+}
+.navbar ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+   
+}
+
+.navbar ul li {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: bolder;
+
+   cursor: pointer;
+}.navbar ul li:hover{
+    color: brown;
+    
+}
+
+.header1 img, .img1 {
+    display: flex;
+   flex-wrap: wrap;
+   gap: 50px;
+   height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin: 500px;
+}.content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    text-align: center;
+}
+    @keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+</style>
+<body>
+  
+
+
+<header class="header">About Our Soldiers</header>
+    <section class="about-section">
+        <div class="container">
+            <div class="about-content">
+       <p>
+        The Indian Army, with its rich tapestry of history and valor, stands as a steadfast guardian 
+        of India's sovereignty and an embodiment of courage and sacrifice. From the snow-capped peaks of
+         the Himalayas to the deserts of Rajasthan, the Indian Army's journey is woven with tales of bravery, 
+         resilience, and unwavering commitment to duty. This tribute page celebrates the indomitable spirit of the Indian Army,
+         honoring its legacy of service to the nation and its people.
+       </p>
+</div>
+<div class="about-content">
+    <h2>Mission & Values</h2>
+       <p>
+        The Indian Army is guided by its mission to protect the nation's territorial integrity and uphold the sovereignty of India. 
+        The core values that define the Indian Army include:
+        <br>
+        <br>
+       </p>
+       <ul class="list">
+        <li><strong>Discipline:</strong> Maintaining the highest standards of discipline and professionalism.</li>
+        <br>
+        <li><strong>Honor:</strong>Upholding the honor of the nation and the army.</li>
+        <br>
+        <li><strong> Duty:</strong>Commitment to duty above self, ensuring the safety and security of the country.</li>
+        <br>
+        <li> <strong>Sacrifice: </strong>Recognizing and honoring the ultimate sacrifices made by soldiers for the nation.</li>
+       </ul>
+</div>
+<div class="about-content">
+    <h2>Structure & Organisation</h2>
+       <p>
+        The Indian Army is organized into various branches and regiments, 
+        each specializing in different aspects of warfare and defense. The primary branches include:
+       </p>
+       <ul>
+        <li><strong>Infantry:</strong>The backbone of the army, responsible for ground combat operations.</li><br>
+        <li><strong>Artillery:</strong> Providing firepower support with advanced weaponry and missile systems.</li><br>
+        <li><strong>Armored Corps: </strong>Equipped with tanks and armored vehicles for rapid and decisive offensive operations</li><br>
+        <li><strong>Engineers:</strong>Equipped with tanks and armored vehicles for rapid and decisive offensive operations</li><br>
+       </ul>
+</div>
+<div class="about-content">
+    <h2>Key Operations and Contributions</h2>
+       <p>
+        The Indian Army's contributions extend beyond combat. It plays a vital role in humanitarian missions
+         and disaster relief operations, both domestically and internationally. Key operations include:
+       </p>
+       <ul>
+        <li><strong>Peacekeeping Missions: </strong>Participating in United Nations peacekeeping missions to maintain global peace and stability.</li><br>
+        <li><strong>Disaster Relief: </strong> Providing immediate assistance during natural disasters, such as earthquakes, floods, and cyclones.</li><br>
+        <li><strong>Internal Security: </strong>Assisting in maintaining internal security and law and order during times of crisis</li><br>
+       </ul>
+</div>
+</div>
+<nav class="header1">
+       
+    <!-- <img src="indianArmy.jpg" alt="Indian Army"> -->
+    <nav class="navbar"> 
+        <ul>
+            <li><a href="indianArmy.html">Home</a> </li>
+            <li> <a href="indianArmyAbout.html">About</a></li>
+            <li><a href="timeline.html">History</a></li>
+            <li><a href="more.html"> Attack-Strikes</a></li>
+            <li><a href="awards.html"> Awards-Heroes</a></li>
+
+           
+        </ul>
+    </nav>
+    <!-- <img src="flagig.jpeg" alt="" class="img1"> -->
+</nav>
+
+    </section>
+    
+</body>
+</html>
+

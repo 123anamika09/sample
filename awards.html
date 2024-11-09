@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Army Awards</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    .hero-section {
+    background-image: url('BackgroundHeroo.jpg'); /* Path to your hero image */
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 1.5rem;
+}
+
+.card-img-top {
+    height: 200px; /* Adjust based on image dimensions */
+    object-fit: cover; /* Ensures the image covers the card's area */
+}
+
+footer {
+    background-color: #222;
+}
+
+</style>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Indian Army Awards</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">   
+                    
+                    <li class="nav-item"> 
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#awards">Awards</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#heroes">Heroes</a>
+                    </li>
+
+                    
+                        <!-- <li><a href="indianArmy.html">Home</a> </li>
+                        <li> <a href="indianArmyAbout.html">About</a></li>
+                        <li><a href="timeline.html">History</a></li>
+                        <li><a href="more.html"> Attack-Strikes</a></li>
+                        <li><a href="awards.html"> Awards-Heroes</a></li>
+        
+                         -->
+                    </ul>
+
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section text-center text-white">
+        <div class="container">
+            <h1 class="display-4">Honoring Bravery</h1>
+            <p class="lead">Recognizing the courage and valor of Indian Army soldiers</p>
+        </div>
+    </section>
+
+    <!-- Awards Section -->
+    <section id="awards" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Bravery Awards</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="paramveerChakra.jpeg" class="card-img-top" alt="Param Vir Chakra">
+                        <div class="card-body">
+                            <h5 class="card-title">Param Vir Chakra</h5>
+                            <p class="card-text">The highest military decoration awarded for the most conspicuous bravery in the presence of the enemy.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="mahavirChakra.avif" class="card-img-top" alt="Maha Vir Chakra">
+                        <div class="card-body">
+                            <h5 class="card-title">Maha Vir Chakra</h5>
+                            <p class="card-text">The second highest military decoration awarded for acts of conspicuous gallantry in the presence of the enemy.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="virChakra.jpg" class="card-img-top" alt="Vir Chakra">
+                        <div class="card-body">
+                            <h5 class="card-title">Vir Chakra</h5>
+                            <p class="card-text">The third highest military decoration awarded for gallantry in the face of the enemy.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Heroes Section -->
+    <section id="heroes" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Heroic Soldiers</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="vikramBatra.jpeg" class="card-img-top" alt="Captain Vikram Batra">
+                        <div class="card-body">
+                            <h5 class="card-title">Captain Vikram Batra</h5>
+                            <p class="card-text">Known for his leadership and bravery during the Kargil War, he was posthumously awarded the Param Vir Chakra.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="sandeepMajor.jpg" class="card-img-top" alt="Major Sandeep Unnikrishnan">
+                        <div class="card-body">
+                            <h5 class="card-title">Major Sandeep Unnikrishnan</h5>
+                            <p class="card-text">A hero of the Mumbai attacks, Major Unnikrishnan displayed extraordinary bravery and was awarded the Ashoka Chakra posthumously.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="yogendrasinghsubedar.png" class="card-img-top" alt="Subedar Yashpal">
+                        <div class="card-body">
+                            <h5 class="card-title">Subedar Major Yogendra Yadav</h5>
+                            <p class="card-text">Awarded the Param Vir Chakra for his bravery during the Kargil War, where he played a key role in capturing Tiger Hill.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Indian Army Awards. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

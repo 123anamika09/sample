@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Army Timeline</title>
+    <link rel="stylesheet" href="">
+</head>
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(Indian-Army_SS-1.webp);
+    background-size: cover;
+}   
+      
+/* .heading{
+    text-align: center;
+    justify-content: center;
+    font-size: 24px;
+    margin: 10px;
+    padding: 10px;
+
+}*/
+.header { 
+    background-color: rgb(216, 190, 163);
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+   
+    top: 0;
+    height: 100px;
+    width: 100%;
+    overflow-x:visible;
+    /* overflow-y: visible; */
+    z-index: 1000;
+    border-top-right-radius: 70px;
+    border-bottom-left-radius: 70px;
+
+}.navbar ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+.navbar ul li {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-style: italic;
+    color: black;
+    /* transform: rotate3d(50%); */
+
+    cursor: pointer;
+}
+li:hover{
+    color: rgb(234, 83, 18);
+}
+
+.header img, .img1 {
+    display: flex;
+   flex-wrap: wrap;
+   gap: 50px;
+   height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin: 500px;
+}
+
+.timeline {
+    position: relative;
+    max-width: 600px;
+    margin: 20px;
+}
+
+.timeline-item {
+    position: relative;
+    padding: 20px;
+    margin: 0 0 20px 50px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.timeline-item:hover {
+    transform: scale(1.05);
+}
+
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -25px;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    background-color: #4e54c8;
+    border-radius: 50%;
+}
+
+.timeline-content {
+    padding: 40px;
+    background-color: aqua;
+
+}
+
+.timeline-content h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.timeline-content p {
+    font-size: 16px;
+    color: #666;
+}
+/* why not working */
+.footer {
+    background-color: #4e54c8;
+    height: 100px;
+    width: 100%;
+    position: relative;
+}
+
+
+</style>
+<body>
+
+    <header class="header">
+       
+        <img src="indianArmy.jpg" alt="Indian Army">
+        <nav class="navbar"> 
+            <ul>
+                <li><a href="indianArmy.html">Home</a> </li>
+                <li> <a href="indianArmyAbout.html">About</a></li>
+                <li><a href="timeline.html">History</a></li>
+                <li><a href="more.html"> Attack-Strikes</a></li>
+                <li><a href="awards.html"> Awards-Heroes</a></li>
+
+                
+            </ul>
+        </nav>
+        <img src="flagig.jpeg" alt="" class="img1">
+    </header>
+    <!-- <h1 class="heading">The Indian Army</h1> -->
+    <div class="timeline">
+        <div class="timeline-item">
+            <div class="timeline-content">
+                <h2>1947</h2>
+                <p>Indian Army's role in the Indo-Pakistani War of 1947. Independence and Partition:
+                     The Indian Army was divided between India and Pakistan. 
+                     The First Indo-Pak War (1947-1948) over Kashmir.</p>
+            </div>
+        </div>
+        <div class="timeline-item">
+            <div class="timeline-content">
+                <h2>1962</h2>
+                <p> Sino-Indian War: Conflict between India and China over border disputes.</p>
+            </div>
+            </div>
+        
+        </div>
+        <div class="timeline-item">
+            <div class="timeline-content">
+                <h2>1965</h2>
+                <p>Second Indo-Pak War: Another war with Pakistan, primarily over Kashmir.</p>
+            </div>
+        </div>
+        <div class="timeline-item">
+            <div class="timeline-content">
+                <h2>1971</h2>
+                <p> Indo-Pak War: Leading to the creation of Bangladesh. Indian Army's decisive victory.</p>
+        </div>
+            </div>
+        <div class="timeline-item">
+            <div class="timeline-content">
+                <h2>1984</h2>
+                <p> Operation Blue Star: Indian Army's operation to remove militants from the Golden Temple in Amritsar.</p>
+            </div>
+        </div>
+        <div class="timeline-item">
+            <div class="timeline-content">
+                <h2>1999</h2>
+                <p>Kargil War: Conflict with Pakistan in the Kargil district of Jammu and Kashmir.</p>
+            </div>
+        </div>
+        <div class="timeline-item">
+            <div class="timeline-content">
+                <h2>2001</h2>
+                <p> Attack on Indian Parliament: Led to Operation Parakram, a military standoff with Pakistan.</p>
+            </div>
+        </div>
+        <div class="timeline-item">
+            <div class="timeline-content">
+                <h2>2008</h2>
+                <p>Mumbai Attacks: The Indian Army's National Security Guard (NSG) played a crucial role in counter-terrorism operations.</p>
+            </div>
+        </div>
+        <div class="timeline-item">
+            <div class="timeline-content">
+                <h2>2019</h2>
+                <p>Balakot Airstrike: Airstrikes on terrorist camps in Pakistan in response to the Pulwama attack.</p>
+            </div>
+        </div>
+
+        <div class="timeline-item">
+            <div class="timeline-content">
+                <h2>2020</h2>
+                <p>Galwan Valley Clash: Skirmishes with Chinese troops in Eastern Ladakh.</p>
+            </div>
+        </div>
+        <div class="timeline-item">
+            <div class="timeline-content">
+                <h2>2021-2022</h2>
+                <p> Modernization and Reforms: Ongoing efforts to modernize the Indian Army with new technology and restructuring.</p>
+            </div>
+        </div>
+        <div class="timeline-item">
+            <div class="timeline-content">
+                <h2>2023</h2>
+                <p>Increased focus on cybersecurity and digital warfare capabilities.</p>
+            </div>
+        </div>
+       
+    </div>
+
+    <!-- <footer class="footer">
+        <span class="text"> Our Soldiers </span> -->
+        <!-- <h4> --"sleep peacefully at your homes. The Indian Army is guarding the frontiers.</h4> -->
+    
+    <!-- </footer> -->
+
+    <script>
+// JavaScript for toggling active class on click
+
+document.addEventListener('DOMContentLoaded', function() {
+    const timelineItems = document.querySelectorAll('.timeline-item');
+
+    timelineItems.forEach(item => {
+        item.addEventListener('click', function() {
+            this.classList.toggle('active');
+        });
+    });
+});
+
+
+    </script>
+</body>
+</html>
